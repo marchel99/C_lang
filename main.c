@@ -4,7 +4,23 @@ int main (){
 
 
 
-int myArray[]={3,55,1};
+int myArray1[]={3,55,1};
+
+
+
+
+int min1=find_min(myArray1,3);
+
+printf("minimum to: %d\n", min1 );
+
+
+
+
+
+return 0;
+}
+
+int find_min(int myArray[], int length){
 int min;
 
 min=myArray[0];
@@ -21,9 +37,9 @@ printf("sprawdzam..%d,aktualne min to %d\n",myArray[i],min);
 
 }
 
-printf("minimum to: %d\n",min);
 
-return 0;
+return min;
+
 }
 
 
