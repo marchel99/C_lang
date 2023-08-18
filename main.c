@@ -1,4 +1,8 @@
 #include <stdio.h>
+int find_min(int myArray[], int length);
+
+
+
 
 int main (){
 
@@ -9,9 +13,9 @@ int myArray1[]={3,55,1};
 
 
 
-int min1=find_min(myArray1,3);
 
-printf("minimum to: %d\n", min1 );
+
+printf("minimum to: %d\n", find_min(myArray1,3) );
 
 
 
@@ -19,11 +23,12 @@ printf("minimum to: %d\n", min1 );
 
 return 0;
 }
-
 int find_min(int myArray[], int length){
+
 int min;
 
 min=myArray[0];
+
 
 
 
