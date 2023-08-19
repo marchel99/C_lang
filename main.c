@@ -12,6 +12,7 @@ return 0;
 }
 
 
+
 int find_min(int myArray[], int length){
 int min;
 min=myArray[0];
