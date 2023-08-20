@@ -8,6 +8,7 @@ int myArray1[]={3,55,1};
 printf("minimum to: %d\n", find_min(myArray1,3) );
 
 
+
 return 0;
 }
 
